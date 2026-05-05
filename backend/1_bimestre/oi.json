@@ -1,0 +1,25 @@
+{
+    "nome": "Enzo Ferrari",
+    "idade": 17,
+    "curso": [
+        "PHP",
+        "bd",
+        "front-end",
+        "Ensino médio técnico",
+        "desenho"
+    ],
+    "lista de matérias": [
+        "português",
+        "matemática",
+        "fisíca",
+        "história",
+        "IA",
+        "bd",
+        "backend",
+        "front-end"
+    ],
+    "ativo": true,
+    "reprovado": false,
+    "e-mail": "Eferrari200109@gmail.com",
+    "telefone": null
+}

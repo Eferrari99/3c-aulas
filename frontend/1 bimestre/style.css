@@ -1,0 +1,69 @@
+
+.container{
+    display: grid;
+    grid-template-rows:
+    auto
+    auto
+    auto
+    auto;
+    gap: 20px;
+}
+      
+      body{
+        background-color: #208357
+    }
+    p{
+        color: blue;
+    }
+    ul{
+        list-style: none;
+    }
+    li{
+        display: flex;
+        gap: 100px;
+        justify-content: space-evenly;
+        justify-content: center;
+    }
+
+    button {
+        background-color: blue;
+    }
+
+    div.nome {
+        background-color: #832020;
+
+    }
+
+    div.a {
+        background-color: #3b74b6;
+
+    }
+
+    div.menu {
+        background-color: #832020;
+        grid-template-columns: 1fr 1fr 1 1fr;
+    }
+
+    div.minha_pagina{
+        background-color: #832020;
+    }
+
+    div.menu{
+        border-color: aliceblue;
+        padding: 15px;
+    }
+
+    div.menu ul{
+        display: flex;
+        gap: 20px;
+    }
+
+    div.imagem{
+        background-color: #208357;
+    }
+
+    div.form{
+        background-color: aqua;
+        padding: 20px;
+    }
+

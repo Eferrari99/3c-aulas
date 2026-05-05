@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:5000/adicionar/alunos/form" method="post">
+        Nome:
+        <input name="nome">
+
+        idade:
+        <input name="idade">
+
+        <button type="submit">
+            Enviar
+        </button>
+        
+    </form>
+
+    <hr>
+
+    <form action="http://127.0.0.1:5000/remover/alunos/form" method="post">
+        ID do aluno:
+        <input name="id" placeholder="digite o ID">
+        <button type="submit">excluir</button>
+    </form>
+</body>
+</html>

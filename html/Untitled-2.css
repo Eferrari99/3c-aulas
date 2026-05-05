@@ -1,0 +1,29 @@
+hr {color: sienna;font-size: 5em;}
+
+p   {
+     margin-left: 20px;
+      margin-right:20px;
+      color:rgb(0, 0, 0);
+     background-color: blue;
+    }
+ h1 {font-size: 3cm; text-align: center; }
+
+.meuparagrafo{
+ font-size: 4cm;
+ color:rgb(0, 0, 0);
+}
+
+.nome{
+    background-color:rgb(0, 55, 255);
+    color:rgb(0, 0, 0);
+    width:500px;
+    height: 300px;
+    font-family: "arial black";
+    font-size: 2cm;
+    border-style:outset;
+    
+}
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 255);
+} 

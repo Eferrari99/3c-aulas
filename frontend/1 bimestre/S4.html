@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula do 3°C</title>
+</head>
+<body>
+    <hr>
+    <h1 id="Titulo">Ola mundo</h1>
+    <button onclick="mudarTexto()">
+        Mudar texto
+    </button>
+    <hr>
+    <h2 id="Titulo_2">hello word</h2>
+    <button onclick="mudarCor()">
+        Mudar cor
+    </button>
+
+    <hr>
+    <input type="text" id="nome">
+    <button onclick="saudar()">Saudar</button>
+    <p id="mensagem"></p>
+
+    <hr>
+    <h3 id="numero">hello word</h3>
+    <button onclick="adicionar()">adicionar</button>
+    <button onclick="diminuir()">subtrair</button>
+    <p id="mensagem"></p>
+    <hr>
+
+    <script>
+        function mudarTexto() {
+            document.getElementById("Titulo").innerHTML = "Texto Alterado";
+        }
+
+        function mudarCor() {
+            document.getElementById("Titulo_2").style.color = "red";
+        }
+
+        function saudar() {
+            var nomeDigitado = document.getElementById("nome").value;
+            document.getElementById("mensagem").innerHTML = "bolo " + nomeDigitado + "!";
+            document.getElementById("mensagem").style.color = "blue"
+        }
+
+        var valor = 0;
+        function adicionar(){
+            valor=valor+1;
+            document.getElementById("numero").innerHTML=valor;
+        }
+
+        function diminuir(){
+            valor=valor-1;
+            document.getElementById("numero").innerHTML=valor;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+hr {
+    color: #000;
+    height:5px;
+    background-color: #000;
+}
+
+.menu ul {
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
+    justify-content: center;
+    background-color: #DEB887;
+}
+
+.menu ul a {
+    text-decoration: none;
+      margin-bottom: 10px;
+    }
+
+button {
+    background-color: green;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+    transition: background-color 0.3, color 0.3;
+}
+
+button:hover {
+    background-color: red;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+}
+
+.carrossel {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  .slides {
+    display: flex;
+    width: 300%;
+    animation: slide 9s infinite;
+  }
+  
+  .slides img {
+    width: 50%;
+    height: 50%;
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    33% { transform: translateX(0); }
+  
+    38% { transform: translateX(-100%); }
+    66% { transform: translateX(-100%); }
+  
+    71% { transform: translateX(-200%); }
+    100% { transform: translateX(-200%); }
+  }

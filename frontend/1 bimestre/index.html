@@ -1,0 +1,43 @@
+<script>
+    console.log("Ola mundo!")
+    console.log(5 + 3)
+    let nome = "Ana";
+    let idade = 15;
+
+    console.log(nome);
+    console.log(idade);
+
+    function mostrar() {
+        console.log("executar função");
+    }
+    mostrar();
+
+    //function soma(a, b) {
+    //     return a+b;
+    //   }
+
+    //   let soma = (a, b) => {
+    //      return a + b;
+    //   }
+
+    setTimeout(() => {
+        console.log("demorou 1 segundo");
+    }, 1000);
+
+    function esperar() {
+        return new Promise(resolve => {
+            setTimeout(() => {
+                resolve();
+            }, 5000);
+        })
+    }
+
+    async function exemplo(){
+        console.log("1");
+        await esperar();
+        console.log("2");
+    }
+    exemplo();
+
+
+</script>
